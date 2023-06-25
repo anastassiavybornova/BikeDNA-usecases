@@ -179,24 +179,24 @@ grid_cell_size: 250
 # or if there are two distinct geometries mapped in situations with a bike path/track on both sides of a street.
 # Can be a value describing the whole dataset or the name of the column describing the situation for each row.
 # Valid values are: 'centerline' or 'true_geometries' or a string with the name of the column with either True or False for each geometry.
-# reference_geometries: # true_geometries or centerline. 
+reference_geometries: "will_not_be_used"
 
 # Specify whether the infrastructure geometries are designed for travelling in both directions (i.e. bidirectional) or only one way.
 # This information is used to assess the true value of the network so that e.g. broad bidirectional bike lanes' length are counted twice since they represent the same infrastructure as two narrow lanes on each side of the road.
 # If geometries are mapped as centerlines but represent infrastructure in both sides of the street (see 'reference_geometries'), this column should also be set to True.
 # Can be a value describing the whole dataset or the name of the column describing the situation for each row.
 # Valid values are: True or False or a string with the name of the column with either True or False for each geometry.
-# bidirectional: # True or False 
+bidirectional:  "will_not_be_used"
 
 # Specify a dictionary used for classifying segments of bicycle infrastructure as protected or unprotected.
 # For protected, unprotected or mixed (protected on one side, unprotected on the other side) specify the query defining the type
-# ref_bicycle_infrastructure_type: 
-#  protected:
-#    - # provide query here. E.g.: "vejklasse ==  'Cykelsti langs vej'"
+ref_bicycle_infrastructure_type: 
+  protected:
+    -  "will_not_be_used"
 #  unprotected:
 #    - # provide query here. E.g.: "vejklasse == 'Cykelbane langs vej'"
   # mixed: # Only provide mixed query if relevant
   #   - ""
 
 # Specify the column name (string) of the column in the reference data with the unique ID for each row/feature.
-# reference_id_col: # provide name of id column here
+reference_id_col:  "will_not_be_used"
