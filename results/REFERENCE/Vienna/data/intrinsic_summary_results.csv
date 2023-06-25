@@ -1,0 +1,16 @@
+, 
+Total infrastructure length (km),2162.0014161979493
+Protected bicycle infrastructure density (m/km2),3743.137834140646
+Unprotected bicycle infrastructure density (m/km2),1471.0416556370092
+Mixed protection bicycle infrastructure density (m/km2),0.0
+Bicycle infrastructure density (m/km2),5214.179489777655
+Nodes,11618.0
+Dangling nodes,4189.0
+Nodes per km2,28.019564121640865
+Dangling nodes per km2,10.102767611082252
+Overshoots,186.0
+Undershoots,864.0
+Components,952.0
+Length of largest component (km),721.5911760589323
+Largest component's share of network length,49.995954917617155
+Component gaps,985.0
