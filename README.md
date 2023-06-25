@@ -1,3 +1,6 @@
+> **Note**
+> This is a use case of BikeDNA for the city of Sofia, Bulgaria. The folder `refprep` contains all files used and generated during the preparation of the referece data. If you want to run BikeDNA for another location, start from the main repository.
+
 <p align="center"><img src="images/BikeDNA_logo.svg" width="50%" alt="BikeDNA logo"/></p>
 
 # BikeDNA: Bicycle Infrastructure Data & Network Assessment
