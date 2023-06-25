@@ -5,6 +5,7 @@
 * can't ref_infrastructure_type be also a column, rather than a dict?
 * in reference input requirements the descriptions are different than in the config file
 * config file read-in function assumes that all "ref data" specs are filled out, even if we have not ref data available
+* Config: What is the difference between "study area name" and "area name"?
 
 **01a**
 
