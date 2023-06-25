@@ -1,3 +1,6 @@
+> **Note**
+> This is a use case of BikeDNA for the city of Belgrade, Serbia. If you want to run BikeDNA for another location, start from the [**main repository of BikeDNA**](https://github.com/anerv/BikeDNA).The folder `Belgrade_refprep` contains all files used and generated during the preparation of the reference data; see the notebook [`Belgrade_refprep/prepare_reference_data.ipynb`](https://github.com/anastassiavybornova/BikeDNA-usecases/blob/Belgrade/Belgrade_refprep/prepare_reference_data.ipynb) for more details. 
+
 <p align="center"><img src="images/BikeDNA_logo.svg" width="50%" alt="BikeDNA logo"/></p>
 
 # BikeDNA: Bicycle Infrastructure Data & Network Assessment
