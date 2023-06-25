@@ -1,3 +1,6 @@
+> **Note**
+> This fork of the main BikeDNA repository contains several BikeDNA use cases, each in a separate branch: [Belgrade, Serbia](https://github.com/anastassiavybornova/BikeDNA-usecases/tree/Belgrade), [Sofia, Bulgaria](https://github.com/anastassiavybornova/BikeDNA-usecases/tree/Sofia), and [Vienna, Austra](https://github.com/anastassiavybornova/BikeDNA-usecases/tree/Vienna). If you want to run BikeDNA for another location, start from the [**main repository of BikeDNA**](https://github.com/anerv/BikeDNA). 
+
 <p align="center"><img src="images/BikeDNA_logo.svg" width="50%" alt="BikeDNA logo"/></p>
 
 # BikeDNA: Bicycle Infrastructure Data & Network Assessment
