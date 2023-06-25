@@ -4,18 +4,18 @@
 # - result labelling
 # - exported reports
 
-area_name: # provide area name here
+area_name: "Belgrade"
 reference_name: # provide name of reference dataset
 
 # Provide the name of the study area/project as a slug.
 # (Use https://you.tools/slugify/ if unsure)
 # This will be used for:
 # - folder and subfolder structure setup 
-study_area: # provide name of study area
+study_area: "Belgrade"
 
 # Provide the CRS which will be used throughout the anaylysis. 
 # This must be a projected CRS with meters as unit length. 
-study_crs: # The CRS you want to use for the analysis, as string 'EPSG:XXXX' 
+study_crs: "EPSG:8682"
 
 # Choose whether plots should be saved in low or high resolution.
 # If 'low', plots are saved as png. If 'high', plots are saved as svg (this will lead to significantly larger files)
@@ -172,31 +172,31 @@ incompatible_tags_analysis:
 # Define the desired width of grid cell size in meters for the grid used for local summaries of analysis resutls. 
 # When evaluating the quality of road network data, using cell sizes of 1 km is usually the default (see e.g. Koukoletsos et al, 2011; Haklay, 2010; Neis et al., 2011)
 # Smaller cell sizes give a better granularity, but will make some elements of the analysis slower to compute
-grid_cell_size: 300
+grid_cell_size: 250
 
 # Specify whether the bicycle infrastructure in the reference data have been mapped as centerlines or true geometries.
 # Describes whether bicycle infrastructure is digitised as one line per road segment (regardless of whether there are bicycle infrastructure along both sides)
 # or if there are two distinct geometries mapped in situations with a bike path/track on both sides of a street.
 # Can be a value describing the whole dataset or the name of the column describing the situation for each row.
 # Valid values are: 'centerline' or 'true_geometries' or a string with the name of the column with either True or False for each geometry.
-reference_geometries: # true_geometries or centerline. 
+# reference_geometries: # true_geometries or centerline. 
 
 # Specify whether the infrastructure geometries are designed for travelling in both directions (i.e. bidirectional) or only one way.
 # This information is used to assess the true value of the network so that e.g. broad bidirectional bike lanes' length are counted twice since they represent the same infrastructure as two narrow lanes on each side of the road.
 # If geometries are mapped as centerlines but represent infrastructure in both sides of the street (see 'reference_geometries'), this column should also be set to True.
 # Can be a value describing the whole dataset or the name of the column describing the situation for each row.
 # Valid values are: True or False or a string with the name of the column with either True or False for each geometry.
-bidirectional: # True or False 
+# bidirectional: # True or False 
 
 # Specify a dictionary used for classifying segments of bicycle infrastructure as protected or unprotected.
 # For protected, unprotected or mixed (protected on one side, unprotected on the other side) specify the query defining the type
-ref_bicycle_infrastructure_type: 
-  protected:
-    - # provide query here. E.g.: "vejklasse ==  'Cykelsti langs vej'"
-  unprotected:
-    - # provide query here. E.g.: "vejklasse == 'Cykelbane langs vej'"
+# ref_bicycle_infrastructure_type: 
+#  protected:
+#    - # provide query here. E.g.: "vejklasse ==  'Cykelsti langs vej'"
+#  unprotected:
+#    - # provide query here. E.g.: "vejklasse == 'Cykelbane langs vej'"
   # mixed: # Only provide mixed query if relevant
   #   - ""
 
 # Specify the column name (string) of the column in the reference data with the unique ID for each row/feature.
-reference_id_col: # provide name of id column here
+# reference_id_col: # provide name of id column here
