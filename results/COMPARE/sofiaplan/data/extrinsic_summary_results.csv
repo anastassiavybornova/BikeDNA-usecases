@@ -1,0 +1,19 @@
+,OSM,SofiaPlan
+Total infrastructure length (km),105.96556062890308,155.2658691243836
+Protected bicycle infrastructure density (m/km2),205.98745099610187,414.80651170860415
+Unprotected bicycle infrastructure density (m/km2),202.9000152293158,191.0972529542395
+Mixed protection bicycle infrastructure density (m/km2),4.628604445764769,0.0
+Bicycle infrastructure density (m/km2),413.5160706711825,605.9037646628435
+Nodes,369.0,126.0
+Dangling nodes,139.0,115.0
+Nodes per km2,1.4399719038153864,0.4916977232540344
+Dangling nodes per km2,0.5424284407326252,0.4487717315413805
+Overshoots,1.0,0.0
+Undershoots,0.0,8.0
+Components,61.0,57.0
+Length of largest component (km),8.690009909524905,6.024103361705175
+Largest component's share of network length,9.293274150574746,7.75972645588872
+Component gaps,13.0,15.0
+Alpha,0.01637107776261937,0.008097165991902834
+Beta,0.8672086720867209,0.5634920634920635
+Gamma,0.29064486830154407,0.19086021505376344
