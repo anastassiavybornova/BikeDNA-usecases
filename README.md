@@ -1,5 +1,5 @@
 > **Note**
-> This is a use case of BikeDNA for the city of Rosario, Argentina. If you want to run BikeDNA for another location, start from the [**main repository of BikeDNA**](https://github.com/anerv/BikeDNA).The folder `Rosario_prep` contains all files used and generated during the preparation of the input data; see the notebook [`Rosario_prep/prepare_input_data.ipynb`](https://github.com/anastassiavybornova/BikeDNA-usecases/blob/Rosario/Rosario_prep/prepare_input_data.ipynb) for more details. 
+> This is a use case of BikeDNA for the city of Rosario, Argentina. If you want to run BikeDNA for another location, start from the [**main repository of BikeDNA**](https://github.com/anerv/BikeDNA).The folder `Rosario_refprep` contains all files used and generated during the preparation of the input data; see the notebook [`Rosario_refprep/prepare_input_data.ipynb`](https://github.com/anastassiavybornova/BikeDNA-usecases/blob/Rosario/Rosario_refprep/prepare_input_data.ipynb) for more details. 
 
 <p align="center"><img src="images/BikeDNA_logo.svg" width="50%" alt="BikeDNA logo"/></p>
 
